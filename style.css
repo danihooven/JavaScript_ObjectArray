@@ -1,0 +1,54 @@
+.left {
+    background-color: rgb(136, 7, 7);
+}
+
+.right {
+    background-color: red;
+    background-image: url("images/marvel.jpg");
+    background-size: cover;
+}
+
+@media (min-width: 560px) {
+    .h-sm-100 { height: 150vh; }
+}
+
+.list-group-item {
+    font-size: .8rem;
+}
+
+.list-group-item-action:active {
+    color: white;
+    background-color: #3f51b5;
+}
+.list-group-item-action:focus, .list-group-item-action:hover {
+    z-index: 1;
+    color: white;
+    text-decoration: none;
+    background-color: #3f51b5;
+}
+
+.hero-image {
+    max-width: fit-content;
+}
+
+.hero-name {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.card-text, h6 {
+    text-align: left;
+    font-family: 'Marvel', sans-serif;
+}
+
+.powers {
+    font-size: .8rem;
+}
+
+h2 {
+    color: white;
+}
+
+.card {
+    visibility: hidden;
+}
